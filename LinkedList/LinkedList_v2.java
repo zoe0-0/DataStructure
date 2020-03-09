@@ -1,5 +1,6 @@
 package LinkedList;
 
+
 public class LinkedList_v2 {
 
 	public static void main(String[] args) {
@@ -75,7 +76,7 @@ class LinkedList{
 	
 	//별도의 공간을 선언하지 않고(버퍼없이) 중복값 제거하기
 	void removeDups() {
-		Node n = header;
+		Node n = header.next;
 		while(n!=null && n.next!=null) {
 			Node r = n;
 			while(r.next!=null) {
@@ -89,5 +90,18 @@ class LinkedList{
 		}
 		
 	}//remove
+	
+
+	
+	Node get(int index) {
+		Node n = header;
+		for(int i=1; i<=index; i++) {
+			n = n.next;
+		}
+		return n;
+	}
+	
+	
+
 	
 }
