@@ -85,14 +85,7 @@ public class IsValidateBSTTest {
 			if(!isValidateBST2(n.right)) return false;
 			return true;
 		}
-		
-
-		
+	
 		 
 	}
-
-	
-
 }
-
-
