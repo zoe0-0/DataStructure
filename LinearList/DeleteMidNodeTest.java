@@ -1,6 +1,6 @@
-package LinkedList;
+package LinearList;
 
-import LinkedList.LinkedList.Node;
+import LinearList.LinkedList.Node;
 
 public class DeleteMidNodeTest {
 

@@ -16,7 +16,7 @@ public class Test {
 		System.out.println(h.get("duohui"));
 		System.out.println(h.get("amy"));
 		System.out.println(h.get("jung"));
-		System.out.println(h.get("eun"));
+		System.out.println(h.get("eun") );
 
 	}
 

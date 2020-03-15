@@ -1,4 +1,4 @@
-package LinkedList;
+package LinearList;
 
 public class LinkedList_v1 {
 
